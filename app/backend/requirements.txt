@@ -1,1 +1,8 @@
 quart
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-tavily
+pypdf
+faiss-cpu
