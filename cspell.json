@@ -1,0 +1,21 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "dictionaryDefinitions": [
+      {
+        "name": "workspace",
+        "path": "./.cspell/custom-dictionary-workspace.txt"
+      }
+    ],
+    "dictionaries": ["workspace"],
+    "ignorePaths": [
+      "**/node_modules/**",
+      "**/__pycache__/**",
+      "app/backend/app.log**",
+      "app/backend/__pycache__/**"
+    ],
+    "files": ["**/*.{js,jsx,ts,tsx,py,md,html,bicep}"],
+    "allowCompoundWords": true,
+    "words": ["asgi", "bebackupstorageuksouth", "dotenv", "jsonify", "vnet"]
+  }
+  

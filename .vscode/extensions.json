@@ -1,0 +1,12 @@
+// Recommended extensions for vscode - this will prompt you to install them on load if they are missing.
+// Needed for the auto formatting on save.
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-python.python",
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-python.flake8"
+  ]
+}

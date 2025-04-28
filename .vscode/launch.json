@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Quart Backend",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/app/backend/app.py",
+      "cwd": "${workspaceFolder}/app/backend",
+      "env": {
+        "QUART_APP": "app.py"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
