@@ -2,14 +2,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run Quart Backend",
+      "name": "Run Quart Backend (Hypercorn)",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/app/backend/app.py",
+      "module": "hypercorn",
+      "args": ["app:app", "--bind", "127.0.0.1:8000"],
       "cwd": "${workspaceFolder}/app/backend",
-      "env": {
-        "QUART_APP": "app.py"
-      },
       "console": "integratedTerminal",
       "justMyCode": true
     }

@@ -91,7 +91,7 @@ code .
 2. When the backend starts, you should see:
 
    ```
-   Running on http://127.0.0.1:5000 (CTRL + C to quit)
+   Running on http://127.0.0.1:8000 (CTRL + C to quit)
    ```
 
    - Click the link to open the app.
