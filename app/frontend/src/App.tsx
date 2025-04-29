@@ -18,7 +18,6 @@ export default function App() {
       <Route path="/home" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="*" element={<Home />} /> {/* Catch-all */}
-        {/* Add more routes here as needed */}
       </Route>
     </Routes>
   );

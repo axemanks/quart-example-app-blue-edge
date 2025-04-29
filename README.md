@@ -11,6 +11,23 @@
 
 ---
 
+## Description
+
+This is a simple example of a RAG (Retrieval-Augmented Generation) chatbot where users can upload documents and ask questions about their content. The application uses OpenAI's API for processing and generating responses. The login is mocked.
+
+To use the application:
+1. Get an OpenAI API key from [platform.openai.com](https://platform.openai.com)
+2. Rename `.env.example` to `.env`
+3. Add your OpenAI API key to the `.env` file
+
+---
+
+## Screenshot
+
+![Application Screenshot](docs/screenshot.jpg)
+
+---
+
 ## Resources
 
 - [Vite Documentation](https://vite.dev/guide/)

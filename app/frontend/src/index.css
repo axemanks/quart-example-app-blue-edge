@@ -1,1 +1,19 @@
-/* Place global styles or font imports here if needed */
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent body from overflowing */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Ensure html and body take full height */
+html, body {
+  height: 100%;
+  min-height: 100vh;
+}

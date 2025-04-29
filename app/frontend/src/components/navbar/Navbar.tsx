@@ -5,8 +5,10 @@ export function Navbar() {
   return (
     <nav className={styles.navbar}>
       <span className={styles.logo}>Quart Example</span>
-      <Link className={styles.link} to="/">Home</Link>
-      {/* Add more navigation links here as needed */}
+      <div className={styles.navLinks}>
+        <Link className={styles.link} to="/">Logout</Link>
+        {/* Add more navigation links here as needed */}
+      </div>
     </nav>
   );
 }

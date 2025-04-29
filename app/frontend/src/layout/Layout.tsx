@@ -12,7 +12,7 @@ export default function Layout() {
   return (
     <FluentProvider theme={webLightTheme}>
       <Navbar />
-      <div style={{ padding: 24 }}>
+      <div style={{ paddingTop: '4rem' }}>
         <Outlet />
       </div>
     </FluentProvider>
