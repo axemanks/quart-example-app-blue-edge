@@ -13,7 +13,7 @@ export default function LoginPage(props: ButtonProps) {
         {...props}
         appearance="primary"
         size="large"
-        shape="circular"
+        shape="square" // button shape
         className={styles.loginButton}
         onClick={() => navigate("/home")}
       >
