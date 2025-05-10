@@ -6,8 +6,9 @@ export function Navbar() {
     <nav className={styles.navbar}>
       <span className={styles.logo}>Quart Example</span>
       <div className={styles.navLinks}>
-        <Link className={styles.link} to="/">Logout</Link>
-        {/* Add more navigation links here as needed */}
+        <Link className={styles.link} to="/home">Home</Link>
+        <Link className={styles.link} to="/react">React Challenge</Link>
+        <Link className={styles.link} to="/login">Logout</Link>
       </div>
     </nav>
   );

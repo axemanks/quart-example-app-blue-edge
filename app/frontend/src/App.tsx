@@ -10,15 +10,18 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./layout/Layout";
 import Home from "./pages/Home/Home";
 import LoginPage from "./pages/Login/LoginPage";
+import ReactPage from "./pages/ReactPage/ReactPage";
 
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<LoginPage />} />
-      <Route path="/home" element={<Layout />}>
+      <Route path="/login" element={<LoginPage />} />
+      <Route element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="*" element={<Home />} /> {/* Catch-all */}
+        <Route path="home" element={<Home />} />
+        <Route path="react" element={<ReactPage />} />
       </Route>
+      <Route path="*" element={<Home />} /> {/* Catch-all routes */}
     </Routes>
   );
 }
