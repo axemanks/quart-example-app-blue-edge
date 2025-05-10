@@ -18,6 +18,12 @@ React es una herramienta increíble para construir aplicaciones web dinámicas e
 ### Descripción General del Desafío
 Implementarás un componente de Contador de React paso a paso. Hemos proporcionado un `ExampleCounter` como implementación de referencia para guiarte.
 
+**Ubicación del Proyecto**:
+- Hemos creado una nueva página para este desafío en: 
+  `app/frontend/src/pages/ReactPage/ReactPage.tsx`
+- Esta página contiene tanto los componentes de ejemplo como los de desafío
+- Puedes acceder a esta página navegando a `/react` en la aplicación
+
 ### Objetivos de Aprendizaje
 1. Entender componentes funcionales de React
 2. Dominar la gestión de estado con `useState`

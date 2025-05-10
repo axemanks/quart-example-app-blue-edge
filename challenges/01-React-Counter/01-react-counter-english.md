@@ -18,6 +18,12 @@ React is an incredible tool for building dynamic, interactive web applications. 
 ### Challenge Overview
 You'll implement a React Counter component step by step. We've provided an `ExampleCounter` as a reference implementation to guide you.
 
+**Project Location**:
+- We have created a new page for this challenge at: 
+  `app/frontend/src/pages/ReactPage/ReactPage.tsx`
+- This page contains both the example and challenge components
+- You can access this page by navigating to `/react` in the application
+
 ### Learning Objectives
 1. Understand React functional components
 2. Master state management with `useState`
