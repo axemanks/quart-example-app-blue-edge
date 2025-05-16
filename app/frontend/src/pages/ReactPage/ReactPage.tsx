@@ -1,10 +1,8 @@
 // ReactPage.tsx
 
-
-
-import React from 'react';
-import { ExampleCounter, ChallengeCounter } from '../../components/Counter';
-import styles from './ReactPage.module.css';
+import React from "react";
+import { ChallengeCounter, ExampleCounter } from "../../components/Counter";
+import styles from "./ReactPage.module.css";
 
 const ReactPage: React.FC = () => {
   return (
@@ -20,7 +18,7 @@ const ReactPage: React.FC = () => {
           <ExampleCounter />
         </div>
         <div className={`${styles.counterCard} ${styles.challengeCounter}`}>
-          <div className={styles.counterLabel}>Your Challenge: Build This Counter</div>
+          <div className={styles.counterLabel}>Challenge Counter</div>
           <ChallengeCounter />
         </div>
       </div>

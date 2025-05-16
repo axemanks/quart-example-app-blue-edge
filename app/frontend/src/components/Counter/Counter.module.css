@@ -1,0 +1,40 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.display {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f0f0f0;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #0078d4;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.buttons button:hover:not(:disabled) {
+  background-color: #106ebe;
+}

@@ -1,3 +1,3 @@
 // index.ts
 // Re-export the Counter components
-export { ExampleCounter, ChallengeCounter } from './Counter';
+export { ChallengeCounter, ExampleCounter } from "./Counter";
