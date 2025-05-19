@@ -4,6 +4,7 @@ from quart import Quart
 from blueprints.ping_example import ping_example_blueprint
 from blueprints.static import static_blueprint
 from blueprints.langchain_routes import langchain_bp
+from blueprints.name import name_bp
 
 # Load environment variables from .env
 load_dotenv()
@@ -25,6 +26,7 @@ app = Quart(__name__)
 app.register_blueprint(ping_example_blueprint)
 app.register_blueprint(static_blueprint)
 app.register_blueprint(langchain_bp)
+app.register_blueprint(name_bp)
 
 if __name__ == "__main__":
     app.run(debug=True)

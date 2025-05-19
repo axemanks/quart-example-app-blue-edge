@@ -11,6 +11,7 @@ import Layout from "./layout/Layout";
 import Home from "./pages/Home/Home";
 import LoginPage from "./pages/Login/LoginPage";
 import ReactPage from "./pages/ReactPage/ReactPage";
+import NamePage from "./pages/NamePage/NamePage";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="react" element={<ReactPage />} />
+        <Route path="name" element={<NamePage />} />
       </Route>
       <Route path="*" element={<Home />} /> {/* Catch-all routes */}
     </Routes>
